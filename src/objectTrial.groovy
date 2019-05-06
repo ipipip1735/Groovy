@@ -15,14 +15,14 @@
 def person1 = new Person('Marie', 1)
 def person2 = ['Marie', 2] as Person
 Person person3 = ['Marie', 3]
-
+person1.ck()
 
 
 
 
 //Closure对象
-Person person = new Person()
-println(person.ck())
-person.showInner()
+//Person person = new Person()
+//println(person.ck())
+//person.showInner()
 
 
